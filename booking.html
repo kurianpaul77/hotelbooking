@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Paradise | Book Your Stay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="
+  margin:0;
+  font-family:'Segoe UI',Arial;
+  background:linear-gradient(to right,#141e30,#243b55);
+  min-height:100vh;
+">
+
+<!-- NAVBAR -->
+<div style="background:rgba(0,0,0,0.75);padding:14px;text-align:center;">
+  <a href="index.html" style="color:white;margin:10px 14px;text-decoration:none;font-weight:600;">Home</a>
+  <a href="rooms.html" style="color:white;margin:10px 14px;text-decoration:none;font-weight:600;">Rooms</a>
+  <a href="booking.html" style="color:#ffd700;margin:10px 14px;text-decoration:none;font-weight:700;">Book Now</a>
+</div>
+
+<!-- PAGE TITLE -->
+<div style="
+  text-align:center;
+  color:white;
+  padding:30px 20px 10px;
+">
+  <h1 style="margin:0;font-size:clamp(26px,5vw,38px);">
+    Book Your Stay
+  </h1>
+  <p style="margin-top:10px;opacity:0.9;font-size:15px;">
+    Luxury • Comfort • Nature
+  </p>
+</div>
+
+<!-- BOOKING CONTAINER -->
+<div style="
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+">
+
+  <div style="
+    background:white;
+    width:100%;
+    max-width:460px;
+    border-radius:22px;
+    box-shadow:0 30px 60px rgba(0,0,0,0.35);
+    overflow:hidden;
+  ">
+
+    <!-- IMAGE HEADER -->
+    <div style="
+      background:url('https://images.unsplash.com/photo-1501117716987-c8e1ecb2109f') center/cover;
+      padding:35px;
+      text-align:center;
+      color:white;
+    ">
+      <h2 style="margin:0;font-size:24px;">Reservation Details</h2>
+      <p style="margin-top:8px;font-size:14px;">
+        Secure • Fast • Easy
+      </p>
+    </div>
+
+    <!-- FORM -->
+    <form style="padding:25px 22px;" action="confirmation.html">
+
+      <label style="font-weight:600;font-size:14px;">Full Name</label>
+      <input type="text" placeholder="Enter your name"
+        style="
+          width:100%;
+          padding:13px;
+          margin:8px 0 16px;
+          border-radius:12px;
+          border:1px solid #ccc;
+          font-size:14px;
+        ">
+
+      <label style="font-weight:600;font-size:14px;">Email Address</label>
+      <input type="email" placeholder="Enter your email"
+        style="
+          width:100%;
+          padding:13px;
+          margin:8px 0 16px;
+          border-radius:12px;
+          border:1px solid #ccc;
+          font-size:14px;
+        ">
+
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:140px;">
+          <label style="font-weight:600;font-size:14px;">Check-in</label>
+          <input type="date"
+            style="
+              width:100%;
+              padding:13px;
+              margin:8px 0 16px;
+              border-radius:12px;
+              border:1px solid #ccc;
+            ">
+        </div>
+
+        <div style="flex:1;min-width:140px;">
+          <label style="font-weight:600;font-size:14px;">Check-out</label>
+          <input type="date"
+            style="
+              width:100%;
+              padding:13px;
+              margin:8px 0 16px;
+              border-radius:12px;
+              border:1px solid #ccc;
+            ">
+        </div>
+      </div>
+
+      <label style="font-weight:600;font-size:14px;">Room Type</label>
+      <select style="
+        width:100%;
+        padding:13px;
+        margin:8px 0 22px;
+        border-radius:12px;
+        border:1px solid #ccc;
+        font-size:14px;
+      ">
+        <option>Deluxe Room</option>
+        <option>Luxury Room</option>
+        <option>Family Suite</option>
+      </select>
+
+      <!-- BUTTON -->
+      <button type="submit" style="
+        width:100%;
+        padding:15px;
+        background:linear-gradient(to right,#ff9800,#ff5722);
+        color:white;
+        font-size:16px;
+        border:none;
+        border-radius:35px;
+        cursor:pointer;
+        font-weight:700;
+        letter-spacing:0.5px;
+      ">
+        Confirm Booking
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
